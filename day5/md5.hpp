@@ -1,6 +1,3 @@
-#ifndef MD5_HPP
-#define MD5_HPP
-
 /* MD5
  converted to C++ class by Frank Thilo (thilo@unix-ag.org)
  for bzflag (http://www.bzflag.org)
@@ -60,8 +57,8 @@ public:
   void update(const unsigned char *buf, size_type length);
   void update(const char *buf, size_type length);
   MD5& finalize();
-  std::pair<int, int> day5bdata() const;
-  //friend std::ostream& operator<<(std::ostream&, MD5 md5);
+  std::string hexdigest() const;
+  friend std::ostream& operator<<(std::ostream&, MD5 md5);
 
 private:
   void init();
@@ -91,8 +88,6 @@ private:
   static inline void II(uint4 &a, uint4 b, uint4 c, uint4 d, uint4 x, uint4 s, uint4 ac);
 };
 
-std::pair<int, int> md5(const std::string str);
+std::string md5(const std::string str);
 
 #endif
-
-#endif // MD5_HPP
