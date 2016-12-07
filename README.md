@@ -1,8 +1,10 @@
 ## Adventure of Code 2016
 
-Here are my C++ solutions for mostly part Bs of every day I've achieved. Each day's solution is located in a folder. Enjoy!
+Here are my C++ solutions for every day I've achieved up for now.
 
-NB: Some may be broken, most notably the MD5 one I'm too lazy to fix.
+Some have separate sources for part A and part B, some only handle part B, some do both.
+
+Each day belongs in a folder. Enjoy!
 
 ```                    |
                   +-|---+
