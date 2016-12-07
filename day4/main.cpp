@@ -1,4 +1,4 @@
-/*#include <algorithm>
+#include <algorithm>
 #include <iomanip>
 #include <vector>
 #include <iostream>
@@ -61,7 +61,8 @@ int main()
 		}
 	}
 }
-*/
+
+/* // Code golfed
 
 #include <algorithm>
 #include <iostream>
@@ -70,3 +71,4 @@ int main()
 #define b begin
 #define u b(r),end(r)
 using namespace std;int main(){fstream f{"input.txt"};for(w r;getline(f,r);){auto i=find_if(u,::isdigit),j=find(u,'[');w n{b(r),b(r)+3};int s=stoi(w{i,j});for(char&c:n)c+=s%26-(c+s%26<'{'?0:26);if(n=="nor")cout<<s;}}
+*/
