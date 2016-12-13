@@ -6,6 +6,8 @@ Some have separate sources for part A and part B, some only handle part B, some 
 
 Each day belongs in a folder. Enjoy!
 
+NB: day9 is broken.
+
 ```                    |
                   +-|---+
                  /  |  /|
